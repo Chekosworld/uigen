@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": ["/path/to/uigen/mcp-playwright/dist/index.js"],
+      "env": {}
+    }
+  }
+}

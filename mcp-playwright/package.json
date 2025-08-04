@@ -1,0 +1,24 @@
+{
+  "name": "@uigen/mcp-playwright",
+  "version": "1.0.0",
+  "description": "MCP server for Playwright web automation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "playwright": "^1.48.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "mcp-playwright": "dist/index.js"
+  }
+}
